@@ -7,9 +7,9 @@ To play online please follow the link [Hangman](https://talkanteman.github.io/ha
 ## Run development server
 
 
-1) Download the src files (or use git to clone to a desired directory on your computer).
-2) Open terminal (cmd) in the src directory, and type "npm install", wait for it to download all files needed.
-3) Run `ng serve -o` to develop server and wait for the server to run, a new tab will open automatically.
+1) Download the src files (or use git to clone to the directory of your chosen on your computer).
+2) Open terminal (cmd) in the src directory, and type "npm install", wait downloading is done.
+3) Run `ng serve -o` to develop a server and wait for the server to run, a new tab will open automatically.
 
 
 
