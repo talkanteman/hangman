@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 To play online please follow the link [Hangman](https://talkanteman.github.io/hangman)
 
+for description and roles please refer to this [Wikipedia page](https://en.wikipedia.org/wiki/Hangman_(game))
+
 ## Run development server
 
 
