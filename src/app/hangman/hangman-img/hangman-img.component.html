@@ -1,0 +1,13 @@
+
+<img *ngIf="strikes < 7" [src]="imgSrc[strikes]" class="Hangman"/>
+
+<img *ngIf="gameEnded && strikes < 6" [src]="winSrc" class="LoseOrWin"/>
+<div *ngIf="gameEnded && strikes < 6" class="Message">
+    <h1 class="Win">YES YOU DID IT!</h1>
+</div>
+
+<img *ngIf="gameEnded && strikes > 5" [src]="loseSrc" class="LoseOrWin"/>
+<div *ngIf="gameEnded && strikes > 5" class="Message">
+    <h1 class="Lose">SHIT! YOU DIED :(</h1>
+</div>
+    

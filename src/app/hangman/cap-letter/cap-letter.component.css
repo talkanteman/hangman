@@ -1,0 +1,108 @@
+h1 {
+    text-align: center;
+    margin: auto auto;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.Hidden {
+    opacity: 0.2;
+    cursor: auto;
+}
+
+div {
+    position: absolute;
+    background-color: gray;
+    width: 41px;
+    height: 41px;
+    border: solid 1px black;
+    border-radius: 50%;
+}
+
+
+/* .FirstLine  */
+
+.A {
+    left: 30%; position: absolute; bottom: 30%;
+}
+.B {
+    left: 34%; position: absolute; bottom: 30%;
+}
+.C {
+    left: 38%; position: absolute; bottom: 30%;
+}
+.D {
+    left: 42%; position: absolute; bottom: 30%;
+}
+.E {
+    left: 46%; position: absolute; bottom: 30%;
+}
+.F {
+    left: 50%; position: absolute; bottom: 30%;
+}
+.G {
+    left: 54%; position: absolute; bottom: 30%;
+}
+.H {
+    left: 58%; position: absolute; bottom: 30%;
+}
+.I {
+    left: 62%; position: absolute; bottom: 30%;
+}
+.J {
+    left: 66%; position: absolute; bottom: 30%;
+}
+
+/* .SecondLine  */
+
+.K {
+    left: 32%; position: absolute; bottom: 20%;
+}
+.L {
+    left: 36%; position: absolute; bottom: 20%;
+}
+.M {
+    left: 40%; position: absolute; bottom: 20%;
+}
+.N {
+    left: 44%; position: absolute; bottom: 20%;
+}
+.O {
+    left: 48%; position: absolute; bottom: 20%;
+}
+.P {
+    left: 52%; position: absolute; bottom: 20%;
+}
+.Q {
+    left: 56%; position: absolute; bottom: 20%;
+}
+.R {
+    left: 60%; position: absolute; bottom: 20%;
+}
+.S {
+    left: 64%; position: absolute; bottom: 20%;
+}
+
+/* .ThirdLine */
+
+.T {
+    left: 36%; position: absolute; bottom: 10%;
+}
+.U {
+    left: 40%; position: absolute; bottom: 10%;
+}
+.V {
+    left: 44%; position: absolute; bottom: 10%;
+}
+.W {
+    left: 48%; position: absolute; bottom: 10%;
+}
+.X {
+    left: 52%; position: absolute; bottom: 10%;
+}
+.Y {
+    left: 56%; position: absolute; bottom: 10%;
+}
+.Z {
+    left: 60%; position: absolute; bottom: 10%;
+}

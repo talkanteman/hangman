@@ -1,0 +1,13 @@
+
+<div class="container">
+    <div *ngFor="let word of movieNameByLetter" class="Word">
+        <div *ngFor="let letter of word">
+            <app-single-letter *ngIf="clueLetters.includes(letter)" [letter]="letter"></app-single-letter>
+            <app-single-letter *ngIf="guessedLetters.includes(letter)" [letter]="letter" 
+                isGuessed="true"></app-single-letter>
+            <app-single-letter *ngIf="!clueLetters.includes(letter) && !guessedLetters.includes(letter)" 
+                [letter]="''"></app-single-letter>
+        </div>
+        <h1 class="Space"> </h1>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+.container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 54%;
+    top: 15%;
+    left: 23%;
+}
+
+.Word {
+    display: flex;
+}
+
+.Letter {
+    width: 45px;
+    height: 45px;
+    border-bottom: 6px solid grey;
+    margin: 3px;
+}
+
+.Space {
+    width: 45px;
+    height: 45px;
+}

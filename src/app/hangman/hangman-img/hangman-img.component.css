@@ -1,0 +1,30 @@
+
+.Hangman {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.LoseOrWin {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.Message {
+    position: absolute;
+    display: flex;
+    top: 30%;
+    right: 8%;
+    width: 100px;
+}
+
+.Win {
+    font-size: 50px;
+    color: rgb(142, 222, 150);
+}
+
+.Lose {
+    font-size: 50px;
+    color: red;
+}

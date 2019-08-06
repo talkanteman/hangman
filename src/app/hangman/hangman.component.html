@@ -1,0 +1,12 @@
+<div class="Title">
+    <img src="../../assets/images/Sign.png"/>
+    <div class="HeadLine">HANGMAN</div>
+</div>
+
+<app-hangman-img [strikes]="strikes" [gameEnded]="gameEnded"></app-hangman-img>
+<app-letters-to-display [movieName]="movieName" [clueLetters]="clueLetters" [guessedLetters]="guessedLetters"></app-letters-to-display>
+<div *ngFor="let letter of betLetters">
+    <app-cap-letter  (click)="clickOnLetter(letter)" [display]="stillInBank[letter]"
+     [letter]="letter"></app-cap-letter>
+</div>
+<button *ngIf="gameEnded" class="Again" (click)="startAgain()"><h1>AGAIN</h1></button>

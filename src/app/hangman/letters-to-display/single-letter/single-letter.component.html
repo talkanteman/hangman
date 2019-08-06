@@ -1,0 +1,10 @@
+<div class="container">
+    <div *ngIf="!isGuessed">
+        <h1>{{ letter }}</h1>
+        <div class="UnderLine"></div>
+    </div>
+    <div *ngIf="isGuessed" class="Guessed">
+        <h1>{{ letter }}</h1>
+        <div class="UnderLineGuessed"></div>
+    </div>
+</div>
